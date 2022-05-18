@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이슬-포트폴리오</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shoucut icon" href="./images/fv.png">
+    <script src="./js/jquery-1.11.3.js"></script>
+    <!-- 제이쿼리의 animate의 제약사항을 해결해주는 TweenMax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- ==============================================
+                header
+        ============================================== -->
+        <header>
+            <div class="header_main">
+                <h1 class="logo fl">
+                    <a href="index.html"><span class="logoImg"></span>SEUL<span class="sapn pf">PORTFOLIO</span></a>
+                </h1>
+                <ul class="nav fr">
+                    <li class="fl">[&nbsp;&nbsp; ABOUT &nbsp;&nbsp;]</li>
+                    <li class="fl">[&nbsp;&nbsp; PORTFOLIO &nbsp;&nbsp;]</li>
+                    <li class="fl">[&nbsp;&nbsp; OTHER &nbsp;&nbsp;]</li>
+                </ul>
+            </div>
+        </header>
+        <!-- ==============================================
+                profile
+        ============================================== -->
+        <section id="profile">
+            <h2 class="blind">profile</h2>
+            <div class="profile_main">
+                <div class="p_left fl">
+                    <!-- 사진 -->
+                    <div class="img"></div>
+                </div>
+                <div class="p_right fr">
+                    <dl>
+                        <dt><span>FRONTEND DEVELOPER</span></dt>
+
+                        <dd>
+                            안녕하세요<strong>:)</strong> 프론트엔드 개발자 이슬입니다.<br><br>
+                            사용자로 하여금 편의성과 만족도가 높은 웹페이지를 제작하는 것이 저의 목표입니다.<br>
+                            부족한 부분은 배워나가며, <span>소통과 협업을 중요시하는 마음가짐</span>으로 노력하겠습니다.<br>
+                            트렌드에 맞춰 쉬지 않고 노력하는 프론트엔드 개발자가 되겠습니다.
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+        <!-- ==============================================
+                skil
+        ============================================== -->
+        <section id="skill">
+            <div class="skill_main">
+                <h2>알아보기</h2>
+                <h3>ABOUT</h3>
+                <!-- ABOUT -->
+                <div class="box about fl">
+                    <i class="xi-user-plus xi-2x"></i>
+                    <dl>
+                        <dt>ABOUT</dt>
+                        <dd>이슬</dd>
+                        <dd>ISTJ</dd>
+                        <dd>1996-12-26</dd>
+                        <dd>충청남도 아산시 배방읍</dd>
+                        <dd>한밭대학교 졸업</dd>
+                        <dd>NCS웹표준전문가양성과정</dd>
+                    </dl>
+                </div>
+                <!-- CONTACTS -->
+                <div class="box contacts fl">
+                    <i class="xi-comment xi-2x"></i>
+                    <dl>
+                        <dt>CONTACTS</dt>
+                        <dd>
+                            <i class="xi-call xi-2x"></i>
+                            010-6728-9126
+                        </dd>
+                        <dd>
+                            <i class="xi-mail xi-2x"></i>
+                            seull9126@gmail.com
+                        </dd>
+                        <dd>
+                            <i class="xi-mail xi-2x"></i>
+                            reki2004@naver.com
+                        </dd>
+                        <dd>
+                            <i class="xi-kakaotalk xi-2x"></i>
+                            selllll
+                        </dd>
+                        <dd>
+                            <i class="xi-instagram xi-2x"></i>
+                            @v2_ch_
+                        </dd>
+                        <dd>
+                            <i class="xi-instagram xi-2x"></i>
+                            @dew_de_w
+                        </dd>
+                    </dl>
+                </div>
+                <!-- LICENSES -->
+                <div class="box licenses fl">
+                    <i class="xi-book xi-2x"></i>
+                    <dl>
+                        <dt>LICENSES</dt>
+                        <dd>운전면허 2종 보통</dd>
+                        <dd>컴퓨터활용능력 2급</dd>
+                        <dd>웹디자인기능사</dd>
+                        <dd>컴퓨터그래픽스기능사</dd>
+                        <dd></dd>
+                        <dd></dd>
+                    </dl>
+                </div>
+                <!-- TOOLS -->
+                <div class="box tools fl">
+                    <i class="xi-desktop xi-2x"></i>
+                    <dl>
+                        <dt>TOOLS</dt>
+                        <dd>Adobe Photoshop</dd>
+                        <dd>Adobe illustrator</dd>
+                        <dd>Adobe Indesign</dd>
+                        <dd>Adobe XD</dd>
+                        <dd>Zeplin</dd>
+                        <dd>Visual Studio Code</dd>
+                    </dl>
+                </div>
+                <!-- SKILLS -->
+                <div class="box skills fl">
+                    <i class="xi-code xi-2x"></i>
+                    <dl>
+                        <dt>SKILLS</dt>
+                        <dd>HTML5</dd>
+                        <dd>CSS3</dd>
+                        <dd>JavaScript</dd>
+                        <dd>jQuery</dd>
+                        <dd>React</dd>
+                        <dd>Presentation</dd>
+                    </dl>
+                </div>
+
+            </div>
+        </section>
+        <!-- ==============================================
+                portfolio
+        ============================================== -->
+        <section id="portfolio">
+            <h2>포트폴리오</h2>
+            <h3>PORTFOLIO</h3>
+            <div class="portfolio_main">
+                <dl>
+                    <!-- 포폴이미지 -->
+                    <dt></dt>
+                    <!-- 포폴설명 -->
+                    <dd>
+                            <h4>01.라인</h4>
+                            <h5>LINE</h5>
+                            <p>WEB CODING<br>
+                                제작 : 메인페이지<br><br><br>
+                                리뉴얼된 라인 메인페이지를 코딩하여<br>
+                                웹으로 구현하였습니다.
+                            </p>
+                            <!-- 포폴 바로가기 버튼 -->
+                            <p class="site_btn">
+                                <a href="https://iiseul.github.io/LINE" target="_blank">WEBSITE</a></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <!-- 포폴이미지 -->
+                    <dt></dt>
+                    <!-- 포폴설명 -->
+                    <dd>
+                        <h4>02.한화케미칼</h4>
+                        <h5>HANWHA<br>CHEMICAL</h5>
+                        <p>WEB CODING<br>
+                            제작 : 메인페이지<br><br><br>
+                            리뉴얼된 한화케미칼 메인페이지를 코딩하여<br>
+                            웹으로 구현하였습니다.
+                        </p>
+                        <!-- 포폴 바로가기 버튼 -->
+                        <p class="site_btn">
+                            <a href="https://iiseul.github.io/hanwha" target="_blank">WEBSITE</a></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <!-- 포폴이미지 -->
+                    <dt></dt>
+                    <!-- 포폴설명 -->
+                    <dd>
+                        <h4>03.현대백화점 그룹 통합 멤버쉽</h4>
+                        <h5>h.point</h5>
+                        <p>WEB CODING<br>
+                            제작 : 메인페이지<br><br><br>
+                            리뉴얼된 hpoint 메인페이지를 코딩하여<br>
+                            웹으로 구현하였습니다.
+                        </p>
+                        <!-- 포폴 바로가기 버튼 -->
+                        <p class="site_btn">
+                            <a href="https://iiseul.github.io/hpoint" target="_blank">WEBSITE</a></p>
+
+                    </dd>
+                </dl>
+                <dl>
+                    <!-- 포폴이미지 -->
+                    <dt></dt>
+                    <!-- 포폴설명 -->
+                    <dd>
+                        <h4>04.포폴 반응형</h4>
+                        <h5>BOX<br>RESPONSIVE</h5>
+                        <p>WEB CODING<br>
+                            제작 : 메인페이지<br><br><br>
+                            isotope plug-in 메인페이지를 코딩하여<br>
+                            웹으로 구현하였습니다.
+                        </p>
+                        <!-- 포폴 바로가기 버튼 -->
+                        <p class="site_btn">
+                            <a href="https://iiseul.github.io/boxresponsive" target="_blank">WEBSITE</a></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <!-- 포폴이미지 -->
+                    <dt></dt>
+                    <!-- 포폴설명 -->
+                    <dd>
+                        <h4>05.스타벅스</h4>
+                        <h5>STARBUCKS</h5>
+                        <p>WEB CODING<br>
+                            제작 : 메인페이지<br><br><br>
+                            스타벅스 메인페이지를 코딩하여<br>
+                            반응형 웹으로 구현하였습니다.
+                            <!-- 포폴 바로가기 버튼 -->
+                            <p class="site_btn">
+                                <a href="https://iiseul.github.io/Starbucks" target="_blank">WEBSITE</a></p>
+                        </p>
+                    </dd>
+                </dl>
+                <dl>
+                    <!-- 포폴이미지 -->
+                    <dt></dt>
+                    <!-- 포폴설명 -->
+                    <dd>
+                        <h4>06.웃닥 원격진료앱</h4>
+                        <h5>SMILE<br>Doc.</h5>
+                        <p>WEB CODING<br>
+                            제작 : 메인페이지<br><br><br>
+                            원격진료 앱 웃닥을<br>
+                            설계 및 디자인하였습니다.
+                        </p>
+                        <!-- 포폴 바로가기 버튼 -->
+                        <p class="site_btn">
+                            <a href="https://iiseul.github.io/down/smiledoc.pdf" target="_blank">WEBSITE</a></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <!-- 포폴이미지 -->
+                    <dt></dt>
+                    <!-- 포폴설명 -->
+                    <dd>
+                        <h4>07.</h4>
+                        <h5>HANWHA<br>CHEMICAL</h5>
+                        <p>WEB CODING<br>
+                            제작 : 메인페이지<br><br><br>
+                            리뉴얼된 한화케미칼 메인페이지를 코딩하여<br>
+                            웹으로 구현하였습니다.
+                        </p>
+                        <!-- 포폴 바로가기 버튼 -->
+                        <p class="site_btn">
+                            <a href="https://iiseul.github.io/member" target="_blank">WEBSITE</a></p>
+                    </dd>
+                </dl>
+            </div>
+        </section>
+        <!-- ==============================================
+                etc
+        ============================================== -->
+        <section id="etc">
+            <h2>기타디자인</h2>
+            <h3>OTHER DESIGN</h3>
+            <div class="etc_main">
+                <!-- 1번째 기타 디자인 -->
+                <dl class="etc_1 fl">
+                    <!-- 이미지 -->
+                    <dt>
+                        <p><strong>자세히보기</strong>
+                            <i></i>
+                        </p>
+                    </dt>
+                    <!-- 설명 -->
+                    <dd>
+                        <span>Event Banner &#124; 이벤트 배너</span><br>
+                        이벤트 배너 디자인
+                    </dd>
+                </dl>
+                <!-- 2번째 기타 디자인 -->
+                <dl class="etc_2 fl">
+                    <!-- 이미지 -->
+                    <dt>
+                        <p><strong>자세히보기</strong>
+                            <i></i>
+                        </p>
+                    </dt>
+                    <!-- 설명 -->
+                    <dd>
+                        <span>Typography&#124; 타이포그래피</span><br>
+                        타이포그래피 디자인
+                    </dd>
+                </dl>
+                <!-- 3번째 기타 디자인 -->
+                <dl class="etc_3 fl">
+                    <!-- 이미지 -->
+                    <dt>
+                        <p><strong>자세히보기</strong>
+                            <i></i>
+                        </p>
+                    </dt>
+                    <!-- 설명 -->
+                    <dd>
+                        <span>Golden ratio&#124; 이벤트 배너</span><br>
+                        이벤트 디자인
+                    </dd>
+                </dl>
+                <!-- 4번째 기타 디자인 -->
+                <dl class="etc_4 fl">
+                    <!-- 이미지 -->
+                    <dt>
+                        <p><strong>자세히보기</strong>
+                            <i></i>
+                        </p>
+                    </dt>
+                    <!-- 설명 -->
+                    <dd>
+                        <span>AZUKI APP &#124; 아즈키 앱</span><br>
+                        아즈키 앱 디자인
+                    </dd>
+                </dl>
+                <!-- 5번째 기타 디자인 -->
+                <dl class="etc_5 fl">
+                    <!-- 이미지 -->
+                    <dt>
+                        <p><strong>자세히보기</strong>
+                            <i></i>
+                        </p>
+                    </dt>
+                    <!-- 설명 -->
+                    <dd>
+                        <span>DRAWING &#124; 드로잉</span><br>
+                        인물드로잉
+                    </dd>
+                </dl>
+            </div>
+        </section>
+        <!-- ==============================================
+                footer
+        ============================================== -->
+        <footer>
+            <div class="footer_main">
+                <img src="./images/btn_top.png" alt="클릭시 최상단으로 가기 버튼" class="btn_top">
+                <ul>
+                    <li class="fl"><a href="tel:010-6728-9126"></a><i class="xi-mobile"></i></li>
+                    <li class="fl"><a href="mailto:reki2004@naver.com"></a><i class="xi-naver"></i></li>
+                    <li class="fl"><a href="tel:seull9126@gmail.com"></a><i class="xi-gmail"></i></li>
+                </ul>
+                <div class="copy">
+                    <p>Copyright &copy; 2022 SEUL. All right reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- ==============================================
+                popup-box-slide
+        ============================================== -->
+        <div id="popup">
+            <div class="popup_main">
+                <div class="bg">
+                    <p class="close">팝업창을 닫으시려면 아무 곳이나 클릭하세요.</p>
+                </div>
+                <!-- popup1 -->
+                <div id="popup1" class="popup">
+                    <button class="prev">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/1-1.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/1-2.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/1-3.png" alt=""></li>
+                    </ul>
+                    <button class="next">&#62;</button>
+                </div>
+                <!-- popup2 -->
+                <div id="popup2" class="popup">
+                    <button class="prev">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/2-1.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/2-2.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/2-3.png" alt=""></li>
+                    </ul>
+                    <button class="next">&#62;</button>
+                </div>
+                <!-- popup3 -->
+                <div id="popup3" class="popup">
+                    <button class="prev">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/3-1.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/3-2.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/3-3.png" alt=""></li>
+                    </ul>
+                    <button class="next">&#62;</button>
+                </div>
+                <!-- popup4 -->
+                <div id="popup4" class="popup">
+                    <button class="prev">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/4-1.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/4-2.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/4-3.png" alt=""></li>
+                    </ul>
+                    <button class="next">&#62;</button>
+                </div>
+                <!-- popup5 -->
+                <div id="popup5" class="popup">
+                    <button class="prev">&#60;</button>
+                    <ul class="popList">
+                        <li class="popImg fl"><img src="./images/5-1.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/5-2.png" alt=""></li>
+                        <li class="popImg fl"><img src="./images/5-3.png" alt=""></li>
+                    </ul>
+                    <button class="next">&#62;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
